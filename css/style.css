@@ -1,0 +1,349 @@
+body
+{
+	scroll-behavior: smooth;
+}
+.nav{
+	position:sticky;
+height:;
+width:;
+background:red;	
+}
+ .front_page
+{
+    height: 650px;
+    width: 100%;
+	color:white;
+	z-index:20;
+    background-image: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+	background-attachment:fixed;
+    
+}
+h1{
+    text-transform:uppercase;
+}
+#i1
+{
+    font-size: 40px;
+    color:white;
+    vertical-align: -25%;
+}
+#i1:hover
+{
+  
+    color:rgb(243, 22, 195);
+    vertical-align: -25%;
+}
+#hed2
+{
+    font-size:90px;
+    text-transform: uppercase;
+    color:rgb(153, 21, 153);
+    word-spacing: 16px;
+    margin-top:40px;
+}
+#hed2:hover
+{
+    color:rgb(235, 93, 180);
+}
+#hed1{
+    font-size:50px;
+    color:rgb(243, 127, 243);
+	margin-top: 90px;
+
+}
+input[type=button]
+{
+    height:70px;
+    width:200px;
+}
+.middle_page
+{
+   
+    color:black;
+
+}
+#serv_col i
+{
+ font-size: 50px;
+    /*border:2px solid red;*/
+
+/*height:100px;
+width:0px;
+border:2px solid black;
+border-radius: 100px;
+vertical-align: ;
+
+background: rgb(223, 63, 201); */
+}
+.class_i{
+
+
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    padding-top:25px;
+    background:#f606deb8;
+
+
+}
+
+#serv_col p
+{
+    margin-top:30px;
+}
+#skills img
+{
+    height:250px;
+    width:100%;
+    border-radius:10px;
+}
+#skills{
+   margin-top:250px;	
+}
+#model_body_img img
+{
+    height:400px;
+    width:750px;
+    border-radius:10px;
+}
+.card{
+    border-style:none;
+}
+#about
+{
+	margin-top:250px;
+}
+#about_img img
+{
+    height:200px;
+    width:200px;
+    border-radius:10%;
+}
+h1
+{
+    font-weight: bolder;
+}
+
+#about_float>div
+{
+    float:left;
+}
+
+/* media query making responsive
+@media (max-width: 1100px)
+{
+
+    #hed2
+    {
+        font-size:50px;
+        text-transform: uppercase;
+        color:rgb(153, 21, 153);
+        word-spacing: 16px;
+        margin-top:40px;
+    }
+    #hed1{
+        font-size:30px;
+        color:rgb(243, 127, 243);
+    
+    }
+    input[type=button]
+    {
+        height:50px;
+        width:150px;
+    }
+}
+ */
+
+@media (min-width: 0px) and (max-width: 580px)
+{
+
+		#hed2
+		{
+			font-size:50px;
+			word-spacing: 16px;
+			margin-top:40px;
+		}
+		#hed1{
+			font-size:30px;
+			color:rgb(243, 127, 243);
+		
+		}
+		input[type=button]
+		{
+			height:50px;
+			width:150px;
+		} 
+		.navbar
+		{
+			position:absolute;
+			z-index:50;
+			 color:white;
+			 background:purple;
+			 border-radius:0%;
+			 left: 0px;
+		} 
+		
+		#about .heading_img
+		{
+			color:#a0046c;
+			border: 1px solid red;
+		}
+		.last_page 
+		{
+           height: 1200px !important;
+		}
+		.last_page_msg_btn input 
+		{
+			height: 70px !important;
+			width: 100% !important;
+			font-size: 20px !important;
+		}
+		
+	
+}
+@media (max-width: 766px) and (min-width: 581px)
+{
+	.last_page
+	{
+    height: 1200px !important;
+	}
+}
+@media (max-width: 1000px) and (min-width: 766px)
+{
+	.last_page
+	{
+    height: 750px !important;
+	}
+}
+
+
+@media (min-width: 581px) and (max-width: 1000px)
+{
+		
+		#hed2
+		{
+			font-size: 60px;
+			word-spacing: 16px;
+			margin-top:40px;
+		}
+		#hed1{
+			font-size:40px;
+			color:rgb(243, 127, 243);
+		
+		}
+		input[type=button]
+		{
+			height:50px;
+			width:150px;
+		}
+
+		.navbar 
+		{
+			position:absolute;
+			left:30%;
+			top:0%;
+			background: purple;
+		}
+		.last_page 
+		{
+            height: 1200px ;
+		}
+		.last_page_msg_btn input 
+		{
+			height: 70px !important;
+			width: 50% !important;
+			font-size: 20px !important;
+		}	
+
+}
+ .navbar
+ {
+ position:absolute;
+ z-index:10;
+
+ }
+ #navbarr
+ {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index:230;
+		background:purple;
+ }
+ 
+ 
+ #our_team
+ {
+	 margin-top:250px;
+	  margin-bottom:0px;
+ }
+#our_team img
+{
+	border:6px solid white;
+   border-radius:50%;	
+   height:200px;
+   width:200px;
+}
+#our_team i
+{
+	display:inline-block;
+	height:50px;
+	width:50px;
+	color:white;
+	background:black;
+	border-radius:50%;
+	font-size:25px;
+	padding-top:10px;
+
+	 
+	
+}
+#our_team i:hover
+{
+		background:yellow;
+		
+			
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color:white;
+    border-bottom: 0px solid rgba(0,0,0,.125);
+
+}
+  
+.last_page
+{
+	height:750px;
+	width:100%;
+	color:white;
+	margin-top:250px;
+	background-color:red;
+	background-image:url('http://papers.co/wallpaper/papers.co-am67-worldmap-blue-dark-earth-view-art-36-3840x2400-4k-wallpaper.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.last_page_input input{
+	height:70px;
+	width:100%;
+}
+
+.last_page_msg_btn input
+{
+	height:70px;
+	width:25%;
+	font-size:20px;
+}
+.footer
+{
+	margin:0px;
+}
+
+
